@@ -1,0 +1,32 @@
+{
+  "name": "react-node-trello-clone1",
+  "version": "1.0.0",
+  "description": "following along Pluralsight fullstack tutorial by Daniel Stern at https://app.pluralsight.com/library/courses/react-express-full-stack-app-building/table-of-contents",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack",
+    "dev": "webpack-dev-server --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raphaelpinel/react-node-trello-clone1.git"
+  },
+  "author": "Raphaël Pinel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raphaelpinel/react-node-trello-clone1/issues"
+  },
+  "homepage": "https://github.com/raphaelpinel/react-node-trello-clone1#readme",
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/node": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/register": "^7.0.0",
+    "babel-loader": "^8.0.2",
+    "webpack": "^4.17.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.7"
+  }
+}
